@@ -1,0 +1,26 @@
+[
+{
+  "model": "books.book",
+  "pk": 1,
+  "fields": {
+    "created_at": "2021-08-26T08:05:50.728Z",
+    "updated_at": "2021-08-26T08:05:50.728Z",
+    "author": 1,
+    "title": "Neuromancer",
+    "description": "Winner of the Hugo, Nebula, and Philip K. Dick Awards, Neuromancer is a science fiction masterpiece — a classic that ranks as one of the twentieth century’s most potent visions of the future.",
+    "price": "8.99"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 2,
+  "fields": {
+    "created_at": "2021-08-26T08:06:42.104Z",
+    "updated_at": "2021-08-26T08:06:42.104Z",
+    "author": 1,
+    "title": "Mona Lisa Overdrive",
+    "description": "William Gibson, author of the extraordinary multiaward-winning novel Neuromancer, has written his most brilliant and thrilling work to date . . .The Mona Lisa Overdrive.",
+    "price": "7.99"
+  }
+}
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "model": "books.author",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-08-26T08:04:10.699Z",
+      "updated_at": "2021-08-26T08:04:40.101Z",
+      "first_name": "William",
+      "last_name": "Gibson"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-08-26T08:05:50.728Z",
+      "updated_at": "2021-08-26T08:05:50.728Z",
+      "author": 1,
+      "title": "Neuromancer",
+      "description": "Winner of the Hugo, Nebula, and Philip K. Dick Awards, Neuromancer is a science fiction masterpiece — a classic that ranks as one of the twentieth century’s most potent visions of the future.",
+      "price": "8.99"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-08-26T08:06:42.104Z",
+      "updated_at": "2021-08-26T08:06:42.104Z",
+      "author": 1,
+      "title": "Mona Lisa Overdrive",
+      "description": "William Gibson, author of the extraordinary multiaward-winning novel Neuromancer, has written his most brilliant and thrilling work to date . . .The Mona Lisa Overdrive.",
+      "price": "7.99"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-08-26T08:04:10.699Z",
+      "updated_at": "2021-08-26T08:04:40.101Z",
+      "first_name": "Neil",
+      "last_name": "Gaiman"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-08-26T08:05:50.728Z",
+      "updated_at": "2021-08-26T08:05:50.728Z",
+      "author": 2,
+      "title": "The Graveyard Book",
+      "description": "Neil Gaiman's perennial favorite, The Graveyard Book, has sold more than one million copies and is the only novel to win both the Newbery Medal and the Carnegie Medal.",
+      "price": "8.99"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "created_at": "2021-08-26T08:06:42.104Z",
+      "updated_at": "2021-08-26T08:06:42.104Z",
+      "author": 2,
+      "title": "American Gods",
+      "description": "First published in 2001, American Gods became an instant classic—an intellectual and artistic benchmark from the multiple-award-winning master of innovative fiction, Neil Gaiman.",
+      "price": "9.99"
+    }
+  }
+]
