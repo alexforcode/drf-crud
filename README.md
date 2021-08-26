@@ -1,2 +1,2 @@
-# drf-jwt-auth
-Django Rest Framework JWT Token Authentication
+# drf-crud
+Django Rest Framework CRUD
